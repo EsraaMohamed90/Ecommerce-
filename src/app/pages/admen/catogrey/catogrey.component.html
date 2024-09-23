@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-12">
+        <table class="table table-info">
+            <thead>
+                <tr>
+                    <th>sr no</th>
+                    <th>catogry name</th>
+                    <th>actoin</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (item of catogrylist; track $index) {
+                <tr>
+                    <td>{{catogrylist.indexOf(item)}}</td>
+                    <td>{{item}}</td>
+                    <td></td>
+                </tr>
+                    }
+                
+            </tbody>
+        </table>
+    </div>
+</div>
